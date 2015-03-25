@@ -4,7 +4,7 @@
 #include <string>
 
 using namespace std;
-
+//º¯ÊıÉùÃ÷
 int KMP(const string Str, const string NStr);
 
 int main()
