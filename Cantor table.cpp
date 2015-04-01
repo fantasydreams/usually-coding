@@ -15,7 +15,7 @@ int main()
 		cin >> n;
 	for (int i = 1; i < n; i++)
 	{
-		if ((numerator == 1 || denominator == 1) && (temp!=i-1))
+		if ((numerator == 1 || denominator == 1) && (temp!=i-1))  //The function of temp variable is keep change status only once
 		{
 			temp = i;
 			if (broadwise)
